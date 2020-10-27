@@ -7,6 +7,8 @@ An Azure account with a active subscrition.
 # Create VM
 Login to Azure, create Ubuntu 18.04 VM, allow internet access to port 22/tcp (default)
 When it's created, add a data disk to handle bigger uploads of files. ie 50GB Standard HDD.
+Go to the VM in Azure, create a DNS name, something.region.cloudapp.azure.com so you know where to connect.
+
 
 # Create a Azure Storage Account
 Search up storage account -> new, same resource group, remember the name.
